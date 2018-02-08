@@ -1,10 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A hidden file is added to folder which tracks changes and history of contents of the folder/
+(A) A hidden file is added to folder which tracks changes and history of contents of the folder/
 repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+(A) THe staging area is a half-way-house to committing changes which allows 
+further editing before the changes are recorded for posterity. It identifies the 
+files that will be committed before that commital happens - so can be changed
+before becoming final.
+
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
