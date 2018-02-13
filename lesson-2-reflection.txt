@@ -16,13 +16,37 @@ before becoming final.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+(A) You can add files  to the staging area until you have sufficient files to consider
+it a logical change - that way you can limit the amount of commits to have to wade through if there 
+is a problem later.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+(A) If you want to make experimental versions of the app but want to keep original intact.
+when you are introducing changes but don't want to make them official yet.
+When you add new features. When you want to experiment with different versions 
+simultaneously to provide a mechanism to be able to change easily. 
+It enables you to keep a good working copy going whilst working on new features. It enables you to leave 
+what you are working on with new features to go back and fix a bug on the production quality version.
+
 How do the diagrams help you visualize the branch structure?
+
+(A) If you use diagrams of your branch structure, you can see the relationship between branches and 
+the linear nature of the parent-child relationship so it is easy to see which are the parents to each
+child. Also you can see which commits belong to which branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+(A) Because the result is neither original master branch or original coins branch but a mixture of the two
+and the diagram showing this relationship merged at a single point would accurately reflect this.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+(A) Pros - git checks for conflicts and if none exists allows merge so that you don't have to check line by line
+which you would have to do if you merged manually and you might miss something important.It highlights conflicts 
+if they exist and flags them up.
+Cons - it is possible for git to allow a merge that causes bugs; although it is unlikely because it checks for exact matches
+or not. Git asks for and allows manual merges if it finds a conflict so it is the best of both worlds.
