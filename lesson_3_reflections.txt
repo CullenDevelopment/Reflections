@@ -1,0 +1,47 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+(A) When you want to share it with others/make it public/save it in a safe place and 
+so it is accessible from multiple places - if you use several computers to access github
+or several people are working on the project at the same time.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+ (A) If changes were uploaded to GitHub automatically, they may be uploaded before they are 
+ ready, while you are still making changes to them/working on them. If you upload manually, you can
+ choose when the commit to GitHub is ready to be shared.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    (A) Forks - when you create an exact copy of another repository within your own 
+    profile from within GitHub (Only)
+    Clones - an exact copy of a repository from GitHub to your own machine or into 
+    different folders on your own computer.
+    Branches - a branch is one version of your code. THe Master branch - created 
+    by default, is the offical version but other branches are alternatives - perhaps
+    experimental versions or updated versions that have not yet been put into the official master.
+    These can be created on your local machine or on GitHub.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    You don't necessarily have to go on-line to merge locally into git. You can update your changes
+    and upload to the remote repository when it is convenient to do so later.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    By sitting next to your collaborator. Sharing text files of your program. Git is good because you can keep track
+    of the changes that you made and when. You can also go back to a previous state if you need to easily and compare 
+    different versions. On GitHub you can do all of these things and share your files with other collaborators 
+    remotely, ask them to make additions but be able to review them before they become "official", and you can do the
+    same for others without breaking the master version. If you were just to collaborate by sitting next to your 
+    collaborator, you would have now way to store different versions without storing multiple copies which would be difficult 
+    to manage. If you saved your work in a single file, your changes overwrite your work.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
