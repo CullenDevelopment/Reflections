@@ -44,4 +44,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It allows you to test changes without changing or breaking the master. You can also share changes with other collaborators
+    so that they can agree or disagree with the changes before they become official. You can be more adventurous with changes
+    knowing that the changes can be easily undone and that the orininal master is not lost.
